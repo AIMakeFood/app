@@ -1,1 +1,176 @@
-const _0x6ae7=_0x5974;function _0x5974(_0x5d3a7d,_0x190ccf){_0x5d3a7d=_0x5d3a7d-0x123;const _0xe057c9=_0xe057();let _0x597458=_0xe057c9[_0x5d3a7d];return _0x597458;}(function(_0x47e48a,_0x439bc4){const _0x2d9005=_0x5974,_0x5abf11=_0x47e48a();while(!![]){try{const _0x4ade02=parseInt(_0x2d9005(0x13a))/0x1*(parseInt(_0x2d9005(0x130))/0x2)+parseInt(_0x2d9005(0x131))/0x3+-parseInt(_0x2d9005(0x132))/0x4+parseInt(_0x2d9005(0x12d))/0x5+parseInt(_0x2d9005(0x141))/0x6*(-parseInt(_0x2d9005(0x12e))/0x7)+parseInt(_0x2d9005(0x126))/0x8+-parseInt(_0x2d9005(0x142))/0x9;if(_0x4ade02===_0x439bc4)break;else _0x5abf11['push'](_0x5abf11['shift']());}catch(_0x339ca0){_0x5abf11['push'](_0x5abf11['shift']());}}}(_0xe057,0x7341d));const CACHE_NAME='aimakefood-v1',OFFLINE_URL='/offline.html',PRECACHE_ASSETS=['/',_0x6ae7(0x153),_0x6ae7(0x12a),_0x6ae7(0x148),'/icons/icon-512x512.png'];self[_0x6ae7(0x145)](_0x6ae7(0x146),_0x314775=>{const _0x4c7308=_0x6ae7;_0x314775[_0x4c7308(0x152)](((async()=>{const _0xe146f4=_0x4c7308,_0x2ed5c1=await caches[_0xe146f4(0x143)](CACHE_NAME);await _0x2ed5c1['addAll'](PRECACHE_ASSETS),await self[_0xe146f4(0x14c)]();})()));}),self['addEventListener'](_0x6ae7(0x128),_0x5e3177=>{_0x5e3177['waitUntil'](((async()=>{const _0x5d470c=_0x5974,_0x3fc8f1=await caches[_0x5d470c(0x149)]();await Promise[_0x5d470c(0x140)](_0x3fc8f1[_0x5d470c(0x13e)](_0x11ea63=>_0x11ea63!==CACHE_NAME)['map'](_0x5f0700=>caches['delete'](_0x5f0700))),await self[_0x5d470c(0x155)][_0x5d470c(0x12c)]();})()));}),self[_0x6ae7(0x145)]('fetch',_0x17dd71=>{const _0x2d1f14=_0x6ae7;if(_0x17dd71['request'][_0x2d1f14(0x14f)]!=='GET')return;if(!_0x17dd71[_0x2d1f14(0x15a)][_0x2d1f14(0x124)][_0x2d1f14(0x136)](self[_0x2d1f14(0x129)]['origin']))return;if(_0x17dd71['request']['url']['includes']('/api/')||_0x17dd71['request']['url'][_0x2d1f14(0x154)](_0x2d1f14(0x13f))||_0x17dd71['request']['url'][_0x2d1f14(0x154)](_0x2d1f14(0x157)))return;_0x17dd71[_0x2d1f14(0x14b)](((async()=>{const _0x164536=_0x2d1f14;try{const _0x4a7516=await fetch(_0x17dd71[_0x164536(0x15a)]);if(_0x4a7516['ok']){const _0x1acb33=await caches['open'](CACHE_NAME);_0x1acb33['put'](_0x17dd71['request'],_0x4a7516[_0x164536(0x12b)]());}return _0x4a7516;}catch(_0x418c41){const _0x4a49d1=await caches[_0x164536(0x151)](_0x17dd71['request']);if(_0x4a49d1)return _0x4a49d1;if(_0x17dd71[_0x164536(0x15a)][_0x164536(0x123)]===_0x164536(0x12f)){const _0x49df22=await caches[_0x164536(0x151)](OFFLINE_URL);if(_0x49df22)return _0x49df22;}return new Response('Offline',{'status':0x1f7,'statusText':_0x164536(0x15b),'headers':new Headers({'Content-Type':'text/plain'})});}})()));}),self[_0x6ae7(0x145)](_0x6ae7(0x158),_0x450557=>{const _0x4de1c8=_0x6ae7;_0x450557[_0x4de1c8(0x15c)]===_0x4de1c8(0x127)&&_0x450557['waitUntil'](syncCookingSession());});function _0xe057(){const _0x21d80c=['location','/manifest.json','clone','claim','1718510nodWno','3843665oqpuxv','navigate','650nTlSlm','2338590nUvzCd','2473300apbYlo','openWindow','/api/sync-session','focus','startsWith','Open','showNotification','POST','2334uKpSKG','body','json','window','filter','supabase.co','all','6dwNLYJ','8480637eTFJZR','open','error','addEventListener','install','matchAll','/icons/icon-192x192.png','keys','Dismiss','respondWith','skipWaiting','push','close','method','notification','match','waitUntil','/offline.html','includes','clients','delete','googleapis.com','sync','title','request','Service\x20Unavailable','tag','mode','url','data','5600192oTphxx','sync-cooking-session','activate'];_0xe057=function(){return _0x21d80c;};return _0xe057();}async function syncCookingSession(){const _0x97d898=_0x6ae7,_0x5b539f=await caches['open'](CACHE_NAME),_0x3fb0ed=await _0x5b539f[_0x97d898(0x151)]('pending-session-data');if(_0x3fb0ed)try{const _0x265d7d=await _0x3fb0ed[_0x97d898(0x13c)]();await fetch(_0x97d898(0x134),{'method':_0x97d898(0x139),'headers':{'Content-Type':'application/json'},'body':JSON['stringify'](_0x265d7d)}),await _0x5b539f[_0x97d898(0x156)]('pending-session-data');}catch(_0xc1af62){console[_0x97d898(0x144)]('Failed\x20to\x20sync\x20session\x20data:',_0xc1af62);}}self[_0x6ae7(0x145)](_0x6ae7(0x14d),_0x2d63e2=>{const _0x678f31=_0x6ae7;if(!_0x2d63e2['data'])return;const _0x28d1d6=_0x2d63e2['data'][_0x678f31(0x13c)](),_0x57e5e4={'body':_0x28d1d6[_0x678f31(0x13b)]||'You\x20have\x20a\x20notification\x20from\x20AIMakeFood','icon':_0x678f31(0x148),'badge':'/icons/badge-72x72.png','vibrate':[0x64,0x32,0x64],'data':{'url':_0x28d1d6['url']||'/'},'actions':[{'action':_0x678f31(0x143),'title':_0x678f31(0x137)},{'action':_0x678f31(0x14e),'title':_0x678f31(0x14a)}]};_0x2d63e2[_0x678f31(0x152)](self['registration'][_0x678f31(0x138)](_0x28d1d6[_0x678f31(0x159)]||'AIMakeFood',_0x57e5e4));}),self['addEventListener']('notificationclick',_0x31be08=>{const _0x4bf3d2=_0x6ae7;_0x31be08[_0x4bf3d2(0x150)]['close']();if(_0x31be08['action']===_0x4bf3d2(0x14e))return;_0x31be08['waitUntil'](clients[_0x4bf3d2(0x147)]({'type':_0x4bf3d2(0x13d),'includeUncontrolled':!![]})['then'](_0x4cc16a=>{const _0x1240e4=_0x4bf3d2;for(const _0xe37226 of _0x4cc16a){if(_0xe37226['url']===_0x31be08['notification'][_0x1240e4(0x125)]['url']&&_0x1240e4(0x135)in _0xe37226)return _0xe37226['focus']();}if(clients[_0x1240e4(0x133)])return clients['openWindow'](_0x31be08[_0x1240e4(0x150)][_0x1240e4(0x125)]['url']);}));});
+// AIMakeFood Service Worker
+const CACHE_NAME = 'aimakefood-v1';
+const OFFLINE_URL = '/offline.html';
+
+// Assets to cache on install
+const PRECACHE_ASSETS = [
+  '/',
+  '/offline.html',
+  '/manifest.json',
+  '/icons/icon-192x192.png',
+  '/icons/icon-512x512.png',
+];
+
+// Install event - cache core assets
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    (async () => {
+      const cache = await caches.open(CACHE_NAME);
+      // Cache offline page and core assets
+      await cache.addAll(PRECACHE_ASSETS);
+      // Force waiting service worker to become active
+      await self.skipWaiting();
+    })(),
+  );
+});
+
+// Activate event - clean up old caches
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    (async () => {
+      // Clean up old caches
+      const cacheNames = await caches.keys();
+      await Promise.all(
+        cacheNames.filter((name) => name !== CACHE_NAME).map((name) => caches.delete(name)),
+      );
+      // Take control of all pages immediately
+      await self.clients.claim();
+    })(),
+  );
+});
+
+// Fetch event - network first with offline fallback
+self.addEventListener('fetch', (event) => {
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') {
+    return;
+  }
+
+  // Skip cross-origin requests
+  if (!event.request.url.startsWith(self.location.origin)) {
+    return;
+  }
+
+  // Skip API requests (Supabase, etc.)
+  if (
+    event.request.url.includes('/api/') ||
+    event.request.url.includes('supabase.co') ||
+    event.request.url.includes('googleapis.com')
+  ) {
+    return;
+  }
+
+  event.respondWith(
+    (async () => {
+      try {
+        // Try network first
+        const networkResponse = await fetch(event.request);
+
+        // Cache successful responses
+        if (networkResponse.ok) {
+          const cache = await caches.open(CACHE_NAME);
+          cache.put(event.request, networkResponse.clone());
+        }
+
+        return networkResponse;
+      } catch (error) {
+        // Network failed, try cache
+        const cachedResponse = await caches.match(event.request);
+
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+
+        // If it's a navigation request, show offline page
+        if (event.request.mode === 'navigate') {
+          const offlineResponse = await caches.match(OFFLINE_URL);
+          if (offlineResponse) {
+            return offlineResponse;
+          }
+        }
+
+        // Return a basic offline response
+        return new Response('Offline', {
+          status: 503,
+          statusText: 'Service Unavailable',
+          headers: new Headers({
+            'Content-Type': 'text/plain',
+          }),
+        });
+      }
+    })(),
+  );
+});
+
+// Background sync for offline actions
+self.addEventListener('sync', (event) => {
+  if (event.tag === 'sync-cooking-session') {
+    event.waitUntil(syncCookingSession());
+  }
+});
+
+async function syncCookingSession() {
+  // Sync any pending cooking session data when back online
+  const cache = await caches.open(CACHE_NAME);
+  const pendingData = await cache.match('pending-session-data');
+
+  if (pendingData) {
+    try {
+      const data = await pendingData.json();
+      // Attempt to sync with server
+      await fetch('/api/sync-session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      // Clear pending data on success
+      await cache.delete('pending-session-data');
+    } catch (error) {
+      console.error('Failed to sync session data:', error);
+    }
+  }
+}
+
+// Push notification handling
+self.addEventListener('push', (event) => {
+  if (!event.data) return;
+
+  const data = event.data.json();
+  const options = {
+    body: data.body || 'You have a notification from AIMakeFood',
+    icon: '/icons/icon-192x192.png',
+    badge: '/icons/badge-72x72.png',
+    vibrate: [100, 50, 100],
+    data: {
+      url: data.url || '/',
+    },
+    actions: [
+      { action: 'open', title: 'Open' },
+      { action: 'close', title: 'Dismiss' },
+    ],
+  };
+
+  event.waitUntil(self.registration.showNotification(data.title || 'AIMakeFood', options));
+});
+
+// Notification click handling
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+
+  if (event.action === 'close') return;
+
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clientList) => {
+      // If app is already open, focus it
+      for (const client of clientList) {
+        if (client.url === event.notification.data.url && 'focus' in client) {
+          return client.focus();
+        }
+      }
+      // Otherwise open new window
+      if (clients.openWindow) {
+        return clients.openWindow(event.notification.data.url);
+      }
+    }),
+  );
+});
