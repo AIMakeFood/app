@@ -84,8 +84,17 @@ All images in this directory are sourced from Freepik.com and are used under Fre
 
 <a href="https://www.freepik.com/free-photo/stir-fried-noodle-pork-basil_1248097.htm#fromView=search&page=1&position=8&uuid=8474a3ee-4022-4f5f-8d62-071d1674bdf3&query=Pad+Thai">Image by topntp26 on Freepik</a>
 
+<a href="https://www.freepik.com/free-photo/view-pakistani-food-arrangement_12144188.htm#fromView=search&page=1&position=3&uuid=5eb211f5-2b3b-4390-b903-713a34e3f6df&query=Palak+Paneer">Image by freepik</a>
 
+<a href="https://www.freepik.com/free-photo/bolognese-penne-pasta-served-plate_4804491.htm#fromView=search&page=1&position=7&uuid=dad3c266-023d-445b-901d-f58af0b58b66&query=Penne+all%27Arrabbiata">Image by valeria_aksakova on Freepik</a>
 
+<a href="https://www.freepik.com/free-photo/traditional-mexican-red-pozole-soup-isolated-white-background_390747015.htm#fromView=search&page=1&position=22&uuid=27a7b53b-ed10-4a4f-84c5-cbe9edd5d038&query=Pozole+Rojo">Image by chandlervid85 on Freepik</a>
+
+<a href="https://www.freepik.com/free-photo/mexican-quesadilla-wrap-with-chicken-corn-sweet-pepper-salsa_6963368.htm#fromView=search&page=1&position=23&uuid=3cbeae94-13c8-49f3-a444-152b6b928b76&query=Quesadillas">Image by timolina on Freepik</a>
+
+<a href="https://www.freepik.com/free-photo/close-up-photo-classic-quiche-lorraine-pie-with-tomatoes_9226985.htm#fromView=search&page=1&position=1&uuid=bb72faa0-fb28-4d98-8261-38a0059d9bba&query=Quiche+Lorraine">Image by cookie_studio on Freepik</a>
+
+<a href="https://www.freepik.com/free-photo/ratatouille-french-provence-dish-vegetables-zucchini-eggplant-peppers_5029490.htm#fromView=search&page=1&position=32&uuid=e0574766-1ec3-4c20-913a-c82e93040319&query=Ratatouille">Image by azerbaijan_stockers on Freepik</a>
 
 
 
